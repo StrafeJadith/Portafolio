@@ -1,0 +1,92 @@
+* {
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: "Smooch Sans", sans-serif;
+}
+
+section {
+
+    height: 1130px;
+    width: 100%;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.projects {
+
+    height: 700px;
+    width: 600px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects h1 {
+
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+
+
+}
+
+.projects .edm {
+
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.projects .edm img {
+    position: relative;
+    bottom: 40px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgb(255, 255, 255);
+}
+
+.projects .edm img:hover {
+
+    transform: scale(1.03);
+    transition: 0.7s;
+}
+
+.projects .edm h3 {
+
+    position: relative;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    bottom: 15px;
+}
+
+.projects .edm p {
+
+    position: relative;
+    justify-content: center;
+    text-align: justify;
+    font-weight: 300;
+    width: 500px;
+    font-size: 20px;
+
+}
+
+
+.derechosReservados2 {
+    position: relative;
+    top: 400px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+}
