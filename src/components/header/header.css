@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header {
@@ -22,6 +23,8 @@ header {
     display: flex;
     color: white;
     height: 50px;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -35,6 +38,7 @@ header {
     position: relative;
     top: 10px;
     width: 150px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .tituloNombre:hover {
@@ -59,4 +63,26 @@ a {
     color: white;
     text-align: center;
     justify-content: center;
+}
+
+@media (max-width: 920px) {
+    header {
+        height: auto;
+        padding: 1rem 0;
+    }
+
+    .titulos {
+        flex-direction: column;
+        width: 100%;
+        gap: 0.5rem;
+        height: auto;
+    }
+
+    .tituloNombre {
+        margin-left: 0;
+        top: 0;
+        width: 90%;
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    }
 }

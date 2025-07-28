@@ -10,10 +10,13 @@ const Section = () => {
         <section>
 
             <div className='nameAndImage'>
-                <h1><strong>Jadith Molinares</strong> </h1>
-                <h3>Tecnico en Sistemas</h3>
-                <h3>Tecnologo en Anlisis y Desarrollo de Software</h3>
+                <div className='textContainer'>
+                    <h1><strong>Jadith Molinares</strong> </h1>
+                    <h3>Tecnico en Sistemas</h3>
+                    <h3>Tecnologo en Anlisis y Desarrollo de Software</h3>
+                </div>
                 <img src={imgPerfil} alt="Jadith Molinares" />
+
             </div>
 
             <div className='aboutMe' id='aboutMe'>
@@ -27,8 +30,10 @@ const Section = () => {
 
             <div className='bio'>
                 <h1><strong>Estudios</strong></h1>
-                <h3>2021</h3><p>Tecnico en sistemas, SENA.</p>
-                <h3>2025</h3><p>Tecnologo en Analisis y Desarrollo de Software, SENA.</p>
+                <h3>2021</h3>
+                <p>Tecnico en sistemas, SENA.</p>
+                <h3>2025</h3>
+                <p>Tecnologo en Analisis y Desarrollo de Software, SENA.</p>
             </div>
 
             <div className='hobbies'>

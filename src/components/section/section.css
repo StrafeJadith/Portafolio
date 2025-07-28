@@ -5,7 +5,7 @@
 
 section {
 
-    height: 1130px;
+    height: auto;
     width: 100%;
     color: white;
     align-items: center;
@@ -13,21 +13,32 @@ section {
     flex-direction: column;
 }
 
+.motionClass {
+
+    padding-top: 70px;
+}
+
+
+
 /*----------------------------------------------------------CONTENIDO DE IMAGEN Y NOMRBE ------------------------------------------------------ */
 
 .nameAndImage {
+
     height: 200px;
     width: 600px;
     color: white;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-
+    display: flex;
 
 }
+
 
 .nameAndImage h1 {
     padding: 30px;
     font-size: 40px;
+
+    width: 300px;
 }
 
 .nameAndImage h3 {
@@ -37,16 +48,17 @@ section {
     bottom: 40px;
     left: 40px;
     padding-top: 10px;
+
+    width: 300px;
 }
 
 .nameAndImage img {
     width: 130px;
     height: 130px;
     border-radius: 80%;
-    position: relative;
-    bottom: 150px;
-    left: 450px;
     border: 2px solid white;
+    display: block;
+
 }
 
 /*----------------------------------------------------------ABOUT ME ------------------------------------------------------ */
@@ -212,4 +224,92 @@ section {
 
     position: relative;
     top: 70px;
+}
+
+
+@media(max-width: 920px) {
+
+    .motionClass {
+        padding-top: 260px;
+    }
+
+    .nameAndImage {
+
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        height: auto;
+    }
+
+    .nameAndImage img {
+
+        position: relative;
+        right: 55px;
+    }
+
+    .nameAndImage .textContainer {
+        height: auto;
+        width: 100%;
+    }
+
+    .nameAndImage .textContainer h3 {
+        width: 150px;
+    }
+
+    .aboutMe {
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        height: auto;
+    }
+
+    .portafolio {
+        width: 100%;
+        padding-top: 5rem;
+        height: auto;
+    }
+
+    .bio {
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        padding-top: 4rem;
+        height: auto;
+    }
+
+    .bio h3 {
+        width: 70px;
+
+    }
+
+    .bio p {
+        width: 340px;
+        font-size: 1.2rem;
+
+
+    }
+
+    .hobbies {
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        padding-top: 6rem;
+        height: auto;
+    }
+
+    .socialNet {
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        padding-top: 7rem;
+        height: auto;
+    }
+
+    .derechosReservados {
+        width: 100%;
+        font-size: 1.2rem;
+        padding-left: 3rem;
+        height: auto;
+    }
+
 }
