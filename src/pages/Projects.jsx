@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import Header from "../components/header/Header"
-import SectionProjects from "../components/section/sectionProjects"
+import SectionProjects from "../components/section/SectionProjects"
 const projects = () => {
     return (
 
