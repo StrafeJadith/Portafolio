@@ -8,6 +8,7 @@ import Facebook from '../../assets/facebook.png'
 const Section = () => {
     return (
         <section>
+
             <div className='nameAndImage'>
                 <h1><strong>Jadith Molinares</strong> </h1>
                 <h3>Tecnico en Sistemas</h3>
